@@ -83,14 +83,14 @@ namespace Project5
             {
                 return new List<int> { 2, 3 };
             }
-            if (number == 5)
+            if (number == 5 || number == 6)
             {
                 return new List<int> { 2 , 3, 5};
             }
 
             var primes = new List<int>{2, 3, 5};
 
-            for (var i = 6; i < number + 1; i++)
+            for (var i = 7; i < number + 1; i = i + 2)
             {
                 if (i % 2 != 0 && i % 3 != 0 && i % 5 != 0)
                 {
