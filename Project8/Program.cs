@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace Project8
+﻿namespace Project8
 {
+    using System;
+    using System.Linq;
+
     public class Program
     {
         public static void Main(String[] args)
