@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BC01B7FF-C5F6-4C59-91A4-D1D51C7FDEC8}</ProjectGuid>
+    <ProjectGuid>{63D133F2-04C0-4671-B9B4-6E1967EA83F5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Project14</RootNamespace>
-    <AssemblyName>Project14</AssemblyName>
+    <RootNamespace>Project15</RootNamespace>
+    <AssemblyName>Project15</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
